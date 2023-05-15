@@ -8,5 +8,5 @@ enabled = true
 name = "rubocop"
 enabled = true
 
-[analyzers.meta]
+[[analyzers.meta]]
 	skip_doc_coverage = ["non_public"]
