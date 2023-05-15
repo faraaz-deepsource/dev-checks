@@ -5,3 +5,7 @@ end
 
 hash = {}
 hash.merge!(key: value)
+
+Socket.gethostbyname('hal')
+
+ENV.dup
