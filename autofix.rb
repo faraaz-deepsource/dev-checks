@@ -11,3 +11,9 @@ b = [1, 2, 3, 4, 5]
 puts b
 
 OpenSSL::Cipher::AES.new(128, :GCM)
+  
+class AnotherOne
+  def some_method
+    :sme
+  end
+end
