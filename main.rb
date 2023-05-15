@@ -9,3 +9,18 @@ hash.merge!(key: value)
 Socket.gethostbyname('hal')
 
 ENV.dup
+
+# SomeKlass
+class SomeKlass
+  # mydef
+  def mydef
+    :my
+  end
+
+  private :mydef
+
+  # I would do stuff
+  def self.do_stuff
+    :do_stuff
+  end
+end

@@ -7,3 +7,6 @@ enabled = true
 [[transformers]]
 name = "rubocop"
 enabled = true
+
+[analyzers.meta]
+	skip_doc_coverage = ["non_public"]
