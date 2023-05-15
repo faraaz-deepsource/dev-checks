@@ -24,3 +24,9 @@ class SomeKlass
     :do_stuff
   end
 end
+
+class UnDoced
+  def some_doc
+    :doc
+  end
+end
