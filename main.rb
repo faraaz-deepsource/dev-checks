@@ -15,7 +15,7 @@ class SomeKlass
   # mydef
   def mydef
     :my
-                end
+                 end
 
   private :mydef
 
