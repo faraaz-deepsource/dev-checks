@@ -1,21 +1,21 @@
 if 1 > 2 and 2 < 3
 end
 
-(1..100) === 7
+(1..100)
 
 hash = {}
 hash.merge!(key: value)
 
 Socket.gethostbyname('hal')
 
-ENV.dup
+ENV.to_h
 
 # SomeKlass
 class SomeKlass
   # mydef
   def mydef
     :my
-                end
+  end
 
   private :mydef
 
