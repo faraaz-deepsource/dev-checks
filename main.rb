@@ -15,7 +15,7 @@ class SomeKlass
   # mydef
   def mydef
     :my
-                end
+  end
 
   private :mydef
 
@@ -26,9 +26,7 @@ class SomeKlass
 end
 
 class UnDoced
-  def        some_doc()
-   
-    
-          :doc
-     end
+  def some_doc()
+    :doc
+  end
 end
