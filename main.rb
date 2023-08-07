@@ -26,7 +26,9 @@ class SomeKlass
 end
 
 class UnDoced
-  def some_doc
-    :doc
-  end
+  def        some_doc()
+   
+    
+          :doc
+     end
 end
