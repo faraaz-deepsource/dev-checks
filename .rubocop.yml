@@ -1,5 +1,5 @@
-# .rubocop.yml
+---
 Performance/UnfreezeString:
   Exclude:
-    - 'lib/obsolete_file.rb'
-    - 'app/legacy_code.rb'
+  - lib/obsolete_file.rb
+  - app/legacy_code.rb
