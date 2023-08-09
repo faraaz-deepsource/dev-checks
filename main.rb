@@ -28,6 +28,7 @@ end
 class UnDoced
   def some_doc
           :doc
+        1 + 2
     end
 
 
